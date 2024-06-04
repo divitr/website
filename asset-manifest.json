@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75471a8a.css",
+    "main.js": "/static/js/main.2c07497d.js",
+    "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
+    "static/media/rese-demo.mp4": "/static/media/rese-demo.44e83b18bc2bd62c040f.mp4",
+    "static/media/watersort.png": "/static/media/watersort.4eeaee540edb4cf76c54.png",
+    "static/media/berk_logo.png": "/static/media/berk_logo.0225c8783768a37b9942.png",
+    "static/media/about_img.png": "/static/media/about_img.c94be1a151b259093727.png",
+    "static/media/stanford_logo.png": "/static/media/stanford_logo.5fb418f8351e0a1d9f74.png",
+    "static/media/geneva_logo.png": "/static/media/geneva_logo.77b4edd2872c2cf2cb44.png",
+    "static/media/opensearch_logo.png": "/static/media/opensearch_logo.d9aa4e32a1f6ca2aca83.png",
+    "static/media/columbia_logo.png": "/static/media/columbia_logo.f50abf881bef9f9bce1b.png",
+    "static/media/roc_src_src.png": "/static/media/roc_src_src.deef87d6a5fcd433c561.png",
+    "static/media/mcmc_burnin.png": "/static/media/mcmc_burnin.3c056c7bf6b42914c7a5.png",
+    "static/media/ibm.png": "/static/media/ibm.d683e13a85ea86bfef25.png",
+    "static/media/ws3.png": "/static/media/ws3.7e243162c0d86d7075cd.png",
+    "static/media/Z_masses.png": "/static/media/Z_masses.ba2bc0b3664052261c36.png",
+    "static/media/opensearch.png": "/static/media/opensearch.9e407e6e18e97233e22c.png",
+    "static/media/ws1.png": "/static/media/ws1.739b3f3e22232750a47e.png",
+    "static/media/ws2.png": "/static/media/ws2.1cf45d2b0715e4cdb264.png",
+    "index.html": "/index.html",
+    "main.75471a8a.css.map": "/static/css/main.75471a8a.css.map",
+    "main.2c07497d.js.map": "/static/js/main.2c07497d.js.map",
+    "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75471a8a.css",
+    "static/js/main.2c07497d.js"
+  ]
+}
