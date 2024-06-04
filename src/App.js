@@ -9,7 +9,6 @@ import Research from './Research'; // Assuming you have a Research component
 import Projects from './Projects'; // Assuming you have a Projects component
 import ProjectPage from './ProjectPage'; // Assuming you have a ProjectPage component
 import ResearchPage from './ResarchPage';
-import Notes from './Notes';
 import './App.css'; // Import CSS file for styling
 
 import OpenSearchLogo from './imgs/opensearch_logo.png';
@@ -94,7 +93,6 @@ const App = () => {
                 </div>}
                 githubLink="https://github.com/divitr/top_recon_chisq"
                 demoContent={<img src={ZMasses} alt="Z Boson Masses" style={{ width: '100%' }} />} />} />
-            <Route path="/notes" element={<Notes />} />
           </Routes>
         </div>
       </div>
