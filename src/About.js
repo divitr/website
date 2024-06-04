@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import AboutImage from './imgs/about_img.png';
+import { FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -15,7 +16,10 @@ const About = () => {
           <p>I especially enjoy working at the intersection of machine learning and physics, using statistical mechanics to better understand model architectures and machine learning to model quantiative systems.</p>
           <div className="button-container">
             <a href="https://github.com/divitr/resume_auto_update/blob/main/physics/Divit_Rawal.pdf" target="_blank" className="project-button">
-              <span>My Resume</span>
+              <span>Resume</span>
+            </a>
+            <a href="https://www.linkedin.com/in/divit-rawal" target="_blank" className="project-button">
+              <span><FaLinkedin/> LinkedIn</span>
             </a>
           </div>
         </div>
