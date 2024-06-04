@@ -1,0 +1,69 @@
+/* Header.css */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2vw;
+  z-index: 1000;
+  width: fit-content;
+}
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+.triple-bar {
+  font-size: min(3em, 30px);
+  transition: color 0.3s ease;
+}
+
+.triple-bar.black {
+  color: black;
+}
+
+.triple-bar.white {
+  color: white;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  margin-top: min(3vh, 20px);
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-size: min(5vw, 24px);
+  transition: color 0.3s ease;
+}
+
+.menu-item a.black {
+  color: black;
+}
+
+.menu-item a.white {
+  color: white;
+}
+
+.menu-item a.current {
+  font-weight: bold;
+}
+
+.header.expanded {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+}
+
+.header.expanded .menu-item a:hover {
+  color: lightgray;
+}
+

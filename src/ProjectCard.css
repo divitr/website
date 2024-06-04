@@ -1,0 +1,125 @@
+.project-card {
+  background: #2e2e2e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.5vw;
+  margin: 1vw;
+  width: calc(33% - 2vw);
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  flex-grow: 1;
+  /* Allow project-info to take up the remaining space */
+}
+
+.project-title {
+  font-size: 1.8em;
+  color: #ddd;
+  margin-bottom: 0.5vw;
+}
+
+.project-description {
+  font-size: 1.1em;
+  color: #aaa;
+  margin-bottom: 1vw;
+}
+
+.spacer {
+  flex-grow: 1;
+  /* Pushes the button-wrapper to the bottom */
+}
+
+.button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 0.5em;
+  margin-top: auto;
+  /* Ensure button container stays at the bottom */
+}
+
+.project-button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: max(1em, 10px) max(1.5em, 15px);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+.project-button:hover {
+  background-color: #555;
+  border-color: #ccc;
+}
+
+.project-button span {
+  font-size: 20px;
+}
+
+.project-button span svg {
+  font-size: .8em;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: calc(100% - 2em);
+  }
+
+  .project-title {
+    font-size: 1.5em;
+  }
+
+  .project-description {
+    font-size: 1.1em;
+  }
+
+  .button-wrapper {
+    width: 100%;
+  }
+
+  .button-container {
+    flex-direction: column;
+    padding: 0;
+    gap: 1em;
+  }
+
+  .project-button {
+    padding: 0.5em 1em;
+    margin: 0;
+  }
+
+  .project-button span,
+  .project-button svg {
+    font-size: 1em;
+  }
+}
