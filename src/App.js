@@ -17,6 +17,7 @@ import ReseDemo from './imgs/rese-demo.mp4';
 import Watersort1 from './imgs/ws1.png';
 import Watersort2 from './imgs/ws2.png';
 import Watersort3 from './imgs/ws3.png';
+import AntichessGame from './imgs/antichessGame.png';
 
 import ROCHeader from './imgs/roc_src_src.png';
 import ZMasses from './imgs/Z_masses.png';
@@ -33,8 +34,13 @@ const App = () => {
             <Route path="/education" element={<Education />} />
             <Route path="/research" element={<Research />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/antichess" element={<ProjectPage
+                      title="AntiChess Engine"
+                      description="Antichess is a variant of chess in which the goal is to have all your pieces captured by your opponent. I developed a PyPI package to play single and two player antichess games. The package supports multiple strategies, including implementations of Minimax with alpha beta pruning, Monte-Carlo Tree Search, and an ε-greedy Breadth First Search."
+                      githubLink="https://github.com/divitr/antichess"
+                      demoContent={<img src={AntichessGame} alt="Antichess Game" style={{ maxWidth: '100%' }} />} />} />
             <Route path="/projects/opensearch" element={<ProjectPage
-                      title="Amazon OpenSearch"
+                      title="Amazon Opensearch"
                       description="Amazon OpenSearch is an open-source search and analytics service that helps users analyze and visualize large volumes of data in real-time. As a member of the OpenSearch Contributor Initiative, I collaborated with data engineers from around the globe to develop Machine Learning algorithms and integrations in Java."
                       githubLink="https://github.com/opensearch-project/ml-commons"
                       demoContent={<img src={OpenSearchLogo} alt="Amazon OpenSearch Logo" style={{ maxWidth: '100%' }} />} />} />

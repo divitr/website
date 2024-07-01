@@ -13,10 +13,10 @@ const About = () => {
         </div>
         <div className="about-text">
           <p>I'm a sophomore at UC Berkeley, studying Physics, Mathematics, and Electrical Engineering and Computer Science (minor).</p>
-          <p>I especially enjoy working at the intersection of machine learning and physics, using statistical mechanics to better understand model architectures and machine learning to model quantiative systems.</p>
+          <p>My interests lie at the intersection of computer science, mathematics, and physics, and I especially enjoy modeling and predicting physical systems using tools from machine learning and statistical mechanics. </p>
           <div className="button-container">
             <a href="https://github.com/divitr/resume_auto_update/blob/main/physics/Divit_Rawal.pdf" target="_blank" className="project-button">
-              <span>Resume</span>
+              <span>My Resume</span>
             </a>
             <a href="https://www.linkedin.com/in/divit-rawal" target="_blank" className="project-button">
               <span><FaLinkedin/> LinkedIn</span>

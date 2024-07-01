@@ -6,8 +6,16 @@ import reseImage from './imgs/rese.png';
 import wsImage from './imgs/watersort.png';
 import osImage from './imgs/opensearch.png';
 import pdrpImage from './imgs/berk_logo.png';
+import knight from './imgs/knight.png';
 
 const projects = [
+  {
+    title: 'AntiChess Engine',
+    description: 'A PyPI package for playing and simulating antichess games.',
+    link: '/projects/antichess',
+    githubLink: 'https://github.com/divitr/antichess',
+    demoContent: <img src={knight} alt="knightImage" /> // Demo content
+  },
   {
     title: 'Amazon Opensearch',
     description: 'An open-source project for analyzing and visualizing data in real time.',

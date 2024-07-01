@@ -31,11 +31,11 @@
 }
 
 .project-media {
+    display: flex;
     flex: 1;
     padding: 1em;
     align-content: center;
     justify-content: center;
-    /* Add styling for image, carousel, or video component */
 }
 
 .button-container {
