@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './Header'; // Import Header component
 import Home from './Home'; // Assuming you have a Home component
 import About from './About'; // Assuming you have an About component
